@@ -1,0 +1,304 @@
+{
+  "users": {
+    "usr_1791627792206_1qvh9": {
+      "id": "usr_1791627792206_1qvh9",
+      "email": "surajk9190730@gmail.com",
+      "passwordHash": "$2b$10$zGblOHmAJ4aX3.PlrAmQluL588h6tlGyZtsJegEp7A.ymKHI8W.dq",
+      "name": "suraj kumar",
+      "emailVerified": true,
+      "createdAt": "2026-10-10T10:23:12.206Z"
+    },
+    "usr_1791628697828_bugjm": {
+      "id": "usr_1791628697828_bugjm",
+      "email": "surajk9190731@gmail.com",
+      "passwordHash": "$2b$10$oFf48bTT3JMPV8uQkRfCguqcoU1kWxdryiMDZvtIJVouCDvlOgkly",
+      "name": "suraj",
+      "emailVerified": true,
+      "createdAt": "2026-10-10T10:38:17.828Z"
+    }
+  },
+  "profiles": {
+    "usr_1791627792206_1qvh9": {
+      "userId": "usr_1791627792206_1qvh9",
+      "field": "Cloud Computing",
+      "company": "NVIDIA",
+      "role": "AI/ML Engineer",
+      "experienceLevel": "Basic knowledge",
+      "preferredLanguage": "JavaScript",
+      "studyHoursPerDay": 2,
+      "targetTimelineWeeks": 24,
+      "updatedAt": "2026-10-10T10:23:27.868Z"
+    },
+    "usr_1791628697828_bugjm": {
+      "userId": "usr_1791628697828_bugjm",
+      "field": "Software Development",
+      "company": "Google",
+      "role": "Software Engineer",
+      "experienceLevel": "Intermediate",
+      "preferredLanguage": "JavaScript",
+      "studyHoursPerDay": 2,
+      "targetTimelineWeeks": 12,
+      "updatedAt": "2026-10-10T10:38:20.576Z"
+    }
+  },
+  "assessments": {
+    "usr_1791627792206_1qvh9": [
+      {
+        "id": "atm_1791627823383",
+        "userId": "usr_1791627792206_1qvh9",
+        "field": "Cloud Computing",
+        "company": "NVIDIA",
+        "role": "AI/ML Engineer",
+        "score": 5,
+        "total": 5,
+        "percentage": 100,
+        "answers": {
+          "g-swe-1": 0,
+          "g-swe-2": 0,
+          "g-swe-3": 0,
+          "g-da-1": 0,
+          "g-ux-1": 0
+        },
+        "demonstratedSkills": [
+          "Data Structures & Algorithms",
+          "Distributed Systems",
+          "System Design",
+          "SQL & Data Warehousing",
+          "Interaction Design"
+        ],
+        "improvementSkills": [
+          "Advanced System Design"
+        ],
+        "createdAt": "2026-10-10T10:23:43.383Z"
+      }
+    ],
+    "usr_1791628697828_bugjm": [
+      {
+        "id": "atm_1791628715646",
+        "userId": "usr_1791628697828_bugjm",
+        "field": "Software Development",
+        "company": "Google",
+        "role": "Software Engineer",
+        "score": 5,
+        "total": 5,
+        "percentage": 100,
+        "answers": {
+          "g-swe-1": 0,
+          "g-swe-2": 0,
+          "g-swe-3": 0,
+          "beh-star-1": 0,
+          "amz-sde-1": 0
+        },
+        "demonstratedSkills": [
+          "Data Structures & Algorithms",
+          "Distributed Systems",
+          "System Design",
+          "Leadership & Conflict",
+          "Object-Oriented Design"
+        ],
+        "improvementSkills": [
+          "Advanced System Design"
+        ],
+        "createdAt": "2026-10-10T10:38:35.646Z"
+      }
+    ]
+  },
+  "roadmaps": {
+    "usr_1791627792206_1qvh9": {
+      "userId": "usr_1791627792206_1qvh9",
+      "role": "AI/ML Engineer",
+      "skills": [
+        {
+          "id": "skill-core-1",
+          "name": "Data Structures: Arrays, Two-Pointers & Binary Search",
+          "category": "core",
+          "difficulty": "Beginner",
+          "description": "Foundational array transformations, binary search invariants, and O(1) space optimizations.",
+          "estimatedHours": 15,
+          "prerequisites": [],
+          "status": "completed",
+          "progress": 100,
+          "completed": true
+        },
+        {
+          "id": "skill-core-2",
+          "name": "Non-Linear Structures: Trees, Graphs & BFS/DFS",
+          "category": "core",
+          "difficulty": "Intermediate",
+          "description": "Topological sort, cycle detection in dependencies, and shortest path traversals.",
+          "estimatedHours": 25,
+          "prerequisites": [
+            "skill-core-1"
+          ],
+          "status": "available",
+          "progress": 0,
+          "completed": false
+        },
+        {
+          "id": "skill-specialized-1",
+          "name": "NVIDIA Concurrency & System Reliability",
+          "category": "specialized",
+          "difficulty": "Advanced",
+          "description": "Race condition prevention, thread synchronization, mutex locks, and distributed caching.",
+          "estimatedHours": 35,
+          "prerequisites": [
+            "skill-core-1",
+            "skill-core-2"
+          ],
+          "status": "locked",
+          "progress": 0,
+          "completed": false
+        },
+        {
+          "id": "skill-architecture-1",
+          "name": "AI/ML Engineer System Architecture & Edge Cases",
+          "category": "architecture",
+          "difficulty": "Advanced",
+          "description": "Architecting fault-tolerant services that scale to millions of concurrent requests.",
+          "estimatedHours": 40,
+          "prerequisites": [
+            "skill-specialized-1"
+          ],
+          "status": "locked",
+          "progress": 0,
+          "completed": false
+        }
+      ],
+      "updatedAt": "2026-10-10T10:23:43.402Z"
+    },
+    "usr_1791628697828_bugjm": {
+      "userId": "usr_1791628697828_bugjm",
+      "role": "Software Engineer",
+      "skills": [
+        {
+          "id": "skill-core-1",
+          "name": "Data Structures: Arrays, Two-Pointers & Binary Search",
+          "category": "core",
+          "difficulty": "Beginner",
+          "description": "Foundational array transformations, binary search invariants, and O(1) space optimizations.",
+          "estimatedHours": 15,
+          "prerequisites": [],
+          "status": "completed",
+          "progress": 100,
+          "completed": true
+        },
+        {
+          "id": "skill-core-2",
+          "name": "Non-Linear Structures: Trees, Graphs & BFS/DFS",
+          "category": "core",
+          "difficulty": "Intermediate",
+          "description": "Topological sort, cycle detection in dependencies, and shortest path traversals.",
+          "estimatedHours": 25,
+          "prerequisites": [
+            "skill-core-1"
+          ],
+          "status": "available",
+          "progress": 0,
+          "completed": false
+        },
+        {
+          "id": "skill-specialized-1",
+          "name": "Google Concurrency & System Reliability",
+          "category": "specialized",
+          "difficulty": "Advanced",
+          "description": "Race condition prevention, thread synchronization, mutex locks, and distributed caching.",
+          "estimatedHours": 35,
+          "prerequisites": [
+            "skill-core-1",
+            "skill-core-2"
+          ],
+          "status": "locked",
+          "progress": 0,
+          "completed": false
+        },
+        {
+          "id": "skill-architecture-1",
+          "name": "Software Engineer System Architecture & Edge Cases",
+          "category": "architecture",
+          "difficulty": "Advanced",
+          "description": "Architecting fault-tolerant services that scale to millions of concurrent requests.",
+          "estimatedHours": 40,
+          "prerequisites": [
+            "skill-specialized-1"
+          ],
+          "status": "locked",
+          "progress": 0,
+          "completed": false
+        }
+      ],
+      "updatedAt": "2026-10-10T10:38:35.690Z"
+    }
+  },
+  "submissions": {},
+  "bookmarks": {},
+  "practiceRecords": {},
+  "mockInterviews": {},
+  "userStats": {
+    "usr_1791627792206_1qvh9": {
+      "userId": "usr_1791627792206_1qvh9",
+      "xp": 350,
+      "level": 2,
+      "streak": 1,
+      "badges": [
+        "Orientation Completed",
+        "Assessment Verified"
+      ],
+      "lastActiveDate": "2026-10-10"
+    },
+    "usr_1791628697828_bugjm": {
+      "userId": "usr_1791628697828_bugjm",
+      "xp": 350,
+      "level": 2,
+      "streak": 1,
+      "badges": [
+        "Orientation Completed",
+        "Assessment Verified"
+      ],
+      "lastActiveDate": "2026-10-10"
+    }
+  },
+  "activities": {
+    "usr_1791627792206_1qvh9": [
+      {
+        "id": "act_1791627823396",
+        "userId": "usr_1791627792206_1qvh9",
+        "type": "assessment",
+        "title": "Diagnostic Assessment Completed",
+        "detail": "Score: 100% (5/5 correct) for NVIDIA",
+        "score": 100,
+        "xpEarned": 300,
+        "timestamp": "2026-10-10T10:23:43.396Z"
+      },
+      {
+        "id": "act_1791627807879",
+        "userId": "usr_1791627792206_1qvh9",
+        "type": "onboarding",
+        "title": "Career Target Configured",
+        "detail": "Targeting NVIDIA • AI/ML Engineer (Basic knowledge)",
+        "xpEarned": 50,
+        "timestamp": "2026-10-10T10:23:27.879Z"
+      }
+    ],
+    "usr_1791628697828_bugjm": [
+      {
+        "id": "act_1791628715672",
+        "userId": "usr_1791628697828_bugjm",
+        "type": "assessment",
+        "title": "Diagnostic Assessment Completed",
+        "detail": "Score: 100% (5/5 correct) for Google",
+        "score": 100,
+        "xpEarned": 300,
+        "timestamp": "2026-10-10T10:38:35.672Z"
+      },
+      {
+        "id": "act_1791628700628",
+        "userId": "usr_1791628697828_bugjm",
+        "type": "onboarding",
+        "title": "Career Target Configured",
+        "detail": "Targeting Google • Software Engineer (Intermediate)",
+        "xpEarned": 50,
+        "timestamp": "2026-10-10T10:38:20.628Z"
+      }
+    ]
+  }
+}
